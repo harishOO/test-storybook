@@ -1,0 +1,6 @@
+<div [ngClass]="{'box': report.heading =='primary', 'box-content': report.heading =='2', 'box-content2': report.heading =='3'}">
+    <label>
+        <input type="checkbox" [value]="report.title" id="title" name="title" />
+        {{report.title}}
+    </label>
+</div>

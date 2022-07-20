@@ -1,0 +1,8 @@
+<div class="wrapper">
+    <app-heading></app-heading>
+    <div>
+        <ng-container *ngFor="let report of reports">
+            <app-report-list [report]="report"></app-report-list>
+        </ng-container> 
+    </div>
+</div>
